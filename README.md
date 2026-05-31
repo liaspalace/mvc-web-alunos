@@ -1,18 +1,62 @@
 # mvc-web-alunos
 
-Projeto MVC Web - Cadastro de Alunos
+# MVC Web - Cadastro de Alunos
 
-Requisitos:
-- Java 17 ou superior
+## Arquitetura
 
-Execução:
+O projeto foi desenvolvido utilizando o padrão MVC (Model-View-Controller).
 
-1. Clone o repositório
-2. Entre na pasta do projeto
+### Model
+
+Responsável pela representação dos dados da aplicação.
+
+* Aluno.java
+
+### Controller
+
+Responsável por receber as requisições HTTP e controlar o fluxo da aplicação.
+
+* AlunoController.java
+
+### View
+
+Responsável pela interface com o usuário utilizando Thymeleaf.
+
+* alunos-form.html
+* alunos-lista.html
+
+## Tecnologias Utilizadas
+
+* Java
+* Spring Boot
+* Thymeleaf
+* Maven
+
+## Como Executar
+
+1. Clone o repositório.
+2. Acesse a pasta do projeto.
 3. Execute:
 
-   .\mvnw.cmd spring-boot:run
+```
+.\mvnw.cmd spring-boot:run
+```
 
-4. Acesse:
+4. Abra o navegador:
 
-   http://localhost:8080/alunos
+```
+http://localhost:8080/alunos
+```
+
+## Estrutura MVC
+
+```
+src/main/java/com/exemplo/mvc
+├── controller
+├── model
+└── MvcApplication.java
+
+src/main/resources/templates
+├── alunos-form.html
+└── alunos-lista.html
+```
