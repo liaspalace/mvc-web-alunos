@@ -1,6 +1,6 @@
 # MVC Web - Cadastro de Alunos
 
-# Giulia Meninel Mattedi
+Giulia Meninel Mattedi
 
 ## Arquitetura
 
